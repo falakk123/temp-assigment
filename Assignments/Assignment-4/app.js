@@ -32,7 +32,7 @@
 //d) Variable names are case _________
 //e) Variable names should not be JS _________
 
-
+//index ki file me h iska answ..........................
 
 
 

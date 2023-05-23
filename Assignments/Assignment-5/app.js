@@ -130,15 +130,78 @@
 //variables. Compute the percentage & show the result in 
 //your browser
 
-var totalStu = "980";
-document.write("Total Marks: "+ totalStu+"<br>");
-var obtained = "804";
-document.write("Mark Obtained: "+ obtained+"<br>");
-total = totalStu%obtained;
-document.write("percentage: "+total);
+// var totalStu = "980";
+// document.write("Total Marks: "+ totalStu+"<br>");
+// var obtained = "804";
+// document.write("Mark Obtained: "+ obtained+"<br>");
+// total = obtained*100/980;
+// document.write("percentage: "+total+"%");
+
+
+//9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a 
+//script to convert the total currency to Pakistani Rupees. 
+//Perform all calculations in a single expression.
+//(Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee 
+//and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+//  usDollar10 = (10)*(104.80)+(25*28);
+// document.write("Total Currency PKR: "+usDollar10+"<h2>") 
+
+
+//10. Write a program to initialize a variable with some 
+//number and do arithmetic in following sequence:
+//a. Add 5
+//b. Multiply by 10
+//c. Divide the result by 2
+//Perform all calculations in a single expression
+
+// var initial = 10;
+// var add = (10)+(5)*(10)/(2);
+// document.write(add)
+
+//11. The Age Calculator: Forgot how old someone is? 
+//Calculate it!
+//a. Store the current year in a variable.
+//b. Store their birth year in a variable.
+//c. Calculate their 2 possible ages based on the stored 
+//values.
+//Output them to the screen like so: “They are either NN or NN
+//years old”.
 
 
 
+// var currentYear = 2023;
+// document.write("current year:" +currentYear+"<br>");
+// var birthYear = 2004;
+// document.write("birth year: "+birthYear+"<br>")
+// var year = (currentYear)-(birthYear);
+// document.write("your age is " +year+"<br>")
+
+
+//13. The Lifetime Supply Calculator: Ever wonder how
+//much a “lifetime supply” of your favorite snack is? 
+//Wonder no more.
+//a. Store your favorite snack into a variable
+//b. Store your current age into a variable.
+//c. Store a maximum age into a variable.
+//d. Store an estimated amount per day (as a number).
+//e. Calculate how many would you eat total for the rest of
+//your life.
+//Output the result to the screen like so: “You will need 
+//NNNN to last you until the ripe old age of NN”.
+
+
+// document.write("<h1>"+"The Lifetime Supply Calculator "+ "</h1>"+"</p>")
+// var snake = "Tiger biskuits"
+// document.write("<h3>"+"Favourit snake: " +snake+ "</h3>")
+// var currentAge = "19";
+// document.write("<h3>"+"current age: "+currentAge+"</h3>")
+// var maximumAge = "50"
+// document.write("<h3>"+"Estimated maximim age: "+maximumAge+" </h3>")
+// var amount = "2";
+// document.write("<h3>"+"Amount of snake per day: "+amount+ "</h3>")
+
+// document.write("You will need "+("<h3> "+maximumAge-currentAge)*amount+" tiger buiskit to last you until the rip old age of 50 "+"</h3>")
 
 
 
