@@ -153,6 +153,80 @@
 
 
 
+//Write a program to store student scores in an array & 
+//sort the array in ascending order using Array’s sort 
+//method.
+//SCORES OF STUDENTS : 320 , 230 , 480 , 120
+//ORDERED SCORE OF STUDENTS :120 , 230, 320 , 480
+
+// var scores = [320, 230, 480, 120];
+// scores.sort();
+// scores.reverse();
+// console.log("SCORES OF STUDENTS: " + scores);
+// console.log("ORDERED SCORE OF STUDENTS: " + scores.sort()+ ", ");
+
+
+//Write a program to initialize an array with city names. 
+//Copy 3 array elements from cities array to selectedCities 
+//array.
+//Cities List: 
+//karachi,queta,lahore,islamabad,peshawar
+//selected cities list:
+//islamabad,queta
+
+// var cities = ["karachi","lahore", "queta", "islamabad", "peshawar"];
+// var selectedCities = [];
+// selectedCities = cities.slice(2 , 4);
+// console.log("Selected cities list: " + selectedCities+ ", ");
+
+//Write a program to create a single string from the 
+//below mentioned array:
+//var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+//(Use array’s join method)
+
+
+// var arr = ["This "," is "," my ","cat"];
+// console.log("ARRAY:"+arr)
+// console.log(arr.join(" "))
+
+//13. Create a new array. Store values one by one in such a way
+//that you can access the values in the order in which they 
+//were stored. (FIFO-First In First Out)
+//devices:
+//keyboard,mouse,moniter,printer
+//out:
+//keyboard
+//out:
+//mouse:
+//out:
+//moniter
+//out:
+//printer
+
+// var devices = ["keyboard", "mouse", "moniter", "printer"];
+// console.log("Out: " + devices.shift());
+// console.log("Out: " + devices.shift());
+// console.log("Out: " + devices.shift());
+// console.log("Out: " + devices.shift());
+
+
+//15. Write a program to store phone manufacturers (Apple,
+//Samsung, Motorola, Nokia, Sony & Haier) in an array. 
+//Display the following dropdown/select menu in your 
+//browser using document.write() method:
+
+//  var manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+//  document.write("<select>");
+
+//  document.write("<option>"+manufacturers[0] +"</option>");
+//  document.write("<option>"+manufacturers[1] +"</option>");
+//  document.write("<option>"+manufacturers[2] +"</option>");
+//  document.write("<option>"+manufacturers[3] +"</option>");
+//  document.write("<option>"+manufacturers[4] +"</option>");
+//  document.write("<option>"+manufacturers[5] +"</option>");
+
+// document.write("</select>");
 
 
 

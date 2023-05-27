@@ -21,47 +21,31 @@
 
 //3. Do the following using JS Mathematic Expressions
 //a. Declare a variable.
- //var num;
+ 
+//  var num;
 
-//b. Show the value of variable in your browser like “Value
-//after variable declaration is: ??”.
-//document.write("Value after variable declaration is "+ num + "<br>");
+//  document.write("Value after variable declaration is "+ num + "<br>");
 
+//  var num = 5;
 
-//c. Initialize the variable with some number.
-//var num = 5;
+//  document.write("initial value: "+ num + "<br>");
 
-//d. Show the value of variable in your browser like “Initial
-//value: 5”.
-//document.write("initial value: "+ num + "<br>");
+//  num++;
 
-//e. Increment the variable.
-//num++;
+// document.write("Value after increment is: "+num+ "<br>");
 
-//f. Show the value of variable in your browser like “Value
-//after increment is: 6”.
-//document.write("Value after increment is: "+num+ "<br>");
+// num+=7;
 
-//g. Add 7 to the variable.
-//num+=7;
+// document.write("Value after addition is: "+num+"<br>");
 
-//h. Show the value of variable in your browser like “Value
-//after addition is: 13”.
-//document.write("Value after addition is: "+num+"<br>");
+// num--;
 
-//i. Decrement the variable.
-//num--;
+// document.write("Value after decrement is "+num+"<br>");
 
-//j. Show the value of variable in your browser like “Value
-//after decrement is: 12”.
-//document.write("Value after decrement is "+num+"<br>");
+// var remainder = num % 3;
 
-//k. Show the remainder after dividing the variable’s value 
-//by 3.
-//var remainder = num % 3;
+// document.write("The remainder is "+ remainder + "<br>");
 
-//l. Output : “The remainder is : 0”.
-//document.write("The remainder is "+ remainder + "<br>");
 
 
 //4. Cost of one movie ticket is 600 PKR. Write a script to 
@@ -76,7 +60,7 @@
 //5. Write a script to display multiplication table of any 
 //number in your browser. E.g
 
-// var num = +prompt("Enter a number to Display its Multiplication table");
+// var num = 5;
 // document.write("Multiplication Table Of" + num + "<h2>");
 //     for(var i=1; i<=10; i++){
 //         document.write(num + "x" + i + "=" + (num*i)+"<br>");
