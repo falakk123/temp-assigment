@@ -32,6 +32,15 @@
 // document.write("String of:  The last index of the letter 'l' in the word 'Hello World' is " + word.lastIndexOf("l") + ".");
 
 
+//5. Write a program to find the character at 3rd index in the 
+//word “Pakistani” and display the result in your browser.
+
+// var word = 'Pakistani';
+// var find = 3;
+
+// document.write("value of 3 index is :"+word[3])
+
+
 //6. Repeat Q1 using string concat() method.
 
 
@@ -159,9 +168,9 @@
 //For character codes of a-z, A-Z & 0-9, refer to ASCII
 //table at the end of this document.
 
-// var password = prompt("Enter a password that contains alphabets and numbers, is at least 6 characters long and doesn't start with a number:");
+//  var password = prompt("Enter a password that contains alphabets and numbers, is at least 6 characters long and doesn't start with a number:");
 
-// while (true) {
+//   while (true) {
 //     if (password.length < 6) {
 //         password = prompt("Password is too short. Please enter a password that is at least 6 characters long:");
 //      }
@@ -174,7 +183,7 @@
 
 //     else {
 //         alert("Password is valid!");
-//          break;
+
 //     }
 
 // }
@@ -205,11 +214,13 @@
 //lazy dog”. Write a program to count number of 
 //occurrences of word “the” in given string
 
-//  var string = "The quick brown fox jumps over the lazy dog";
-// document.write(string+"<br>")
-// var count = 0;
-// string = string.toLowerCase();
+// var string = "The quick brown fox jumps over the lazy dog";
+// document.write("TEXT: "+string+"<br>")
+
+// var count = 1;
+
 // var words = string.split(" ");
+
 // for(var i=0; i<words.length; i++){
 //     if(words[i] == "the"){
 //         count++;
@@ -217,10 +228,6 @@
 // }
 
 // document.write("The word 'the' occurs " + count + " times in the string.");
-
-
-
-
 
 
 

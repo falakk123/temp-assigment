@@ -19,7 +19,7 @@
 //  '2firstName' ("var name cannot start with a number")
 // 'social media' ("var name cannot have spaces")
 // 'is human'
-// 'last_name' ("var name cannot have hyphens")
+// 'last-name' ("var name cannot have hyphens")
 // 'email Adress'
 
 //3. Display this in your browser

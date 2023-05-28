@@ -3,9 +3,9 @@
 
 // var studentsNames = [];
 
-// studentsNames.push('hila');
-// studentsNames.push('fasiha');
-// studentsNames.push('huma');
+// studentsNames.push['hila'];
+// studentsNames.push['fasiha'];
+// studentsNames.push['huma'];
 
 // console.log(studentsNames)
 

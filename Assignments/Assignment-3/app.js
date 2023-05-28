@@ -24,8 +24,8 @@
 //3. Declare a variable called birthYear & assign to it your
 //birth year. Show the following message in your browser:
 
-// var birthYear = "My birthYear is 2004 \n data type of my ddeclared variable  is number"
-// alert(birthYear)
+//var birthYear = "My birthYear is 2004 \ndata type of my declared variable  is number"
+//alert(birthYear)
 
 
 //4. A visitor visits an online clothing store

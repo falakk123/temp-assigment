@@ -5,18 +5,25 @@
 //new variable. Show the result in your browser.
 
 // var number = (3) + (5);
-// document.write("sum of 3 and 5 is "+ number)
+// document.write("sum of 3 and 5 is = "+ number)
 
 //2. Repeat task1 for subtraction, multiplication, division &
 //modulus.
 
 // var number = (5)-(3);
-// document.write("sub of 3 and 5 is "+ number)
+// document.write("sub of 3 and 5 is "+ number+"<br>")
 // var number = (5)*(3);
-// document.write("multipl of 3 and 5 is "+ number)
+// document.write("multipl of 3 and 5 is "+ number+"<br>")
 // var number = (5)/(3);
-// document.write("divide of 3 and 5 is "+number)
+// document.write("divide of 3 and 5 is "+number+"<br>")
 
+//moduls
+
+// var num = "3";
+// var number = "5";
+// var moduls = (num)%(number)
+
+// document.write("MODULUS OF 3 and 5 is "+moduls )
 
 
 //3. Do the following using JS Mathematic Expressions
@@ -60,11 +67,17 @@
 //5. Write a script to display multiplication table of any 
 //number in your browser. E.g
 
-// var num = 5;
-// document.write("Multiplication Table Of" + num + "<h2>");
-//     for(var i=1; i<=10; i++){
-//         document.write(num + "x" + i + "=" + (num*i)+"<br>");
-//     }
+//  var num = 5;
+//  document.write(num+" x"+" 2"+" ="+num*1+"<br>")
+//  document.write(num+" x"+" 1"+" ="+num*2+"<br>")
+//  document.write(num+" x"+" 3"+" ="+num*3+"<br>")
+//  document.write(num+" x"+" 4"+" ="+num*4+"<br>")
+//  document.write(num+" x"+" 5"+" ="+num*5+"<br>")
+//  document.write(num+" x"+" 6"+" ="+num*6+"<br>")
+//  document.write(num+" x"+" 7"+" ="+num*7+"<br>")
+//  document.write(num+" x"+" 8"+" ="+num*8+"<br>")
+//  document.write(num+" x"+" 9"+" ="+num*9+"<br>")
+//  docment.write(num+" x"+" 10"+" ="+num*10+"<br>")
 
 //6. The Temperature Converter: It’s hot out! Let’s make a 
 //converter based on the steps here.
@@ -83,7 +96,6 @@
 // document.write(Fahrenheit2 + "°F is" + Celsius2 + "°C");
 
 
-
 //7. Write a program to implement checkout process of a 
 //shopping cart system for an e-commerce website. Store 
 //the following in variables
@@ -100,15 +112,24 @@
 // document.write("Shopping Card"+"</p>");
 // var priceItem1 = 650;
 // document.write("price of item 1 is "+priceItem1 + " <br>");
+
 // var priceItem2 = 100;
 // document.write("price of item 2 is "+priceItem2+ " <br>");
+
 // var quantity1 = 3;
+// var result = priceItem1*quantity1;
+
 // document.write("quantity Item 1 is "+quantity1+ " <br>");
 // var quamtity2 = 7;
-// document.write("quantity Item 2 is "+quamtity2+ " <br>");
-// var shippingItem = 100;
-// document.write("Shipping Charges "+shippingItem);
 
+// var results = priceItem2*quamtity2;
+
+// document.write("quantity Item 2 is "+quamtity2+ " <br>");
+// var shippingCharg = 100;
+// document.write("Shipping Charges "+shippingCharg+"<p>");
+
+// var total = result+results+shippingCharg
+// document.write("Total Cost OF Your Order "+total)
 
 //8. Store total marks & marks obtained by a student in 2 
 //variables. Compute the percentage & show the result in 
@@ -185,7 +206,7 @@
 // var amount = "2";
 // document.write("<h3>"+"Amount of snake per day: "+amount+ "</h3>")
 
-// document.write("You will need "+("<h3> "+maximumAge-currentAge)*amount+" tiger buiskit to last you until the rip old age of 50 "+"</h3>")
+// document.write("<h3>"+"You will need "+(maximumAge-currentAge)*amount+" tiger buiskit to last you until the rip old age of 50 "+"</h3>")
 
 
 
