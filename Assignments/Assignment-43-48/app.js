@@ -20,18 +20,18 @@
 
 //question no 5------------------------------------------------------------------------------------------
 
-  var counter = 0;
-  var counterElement = document.getElementById("counter");
+  // var counter = 0;
+  // var counterElement = document.getElementById("counter");
   
-  function increaseCounter() {
-    counter++;
-    counterElement.innerText = counter;
-  }
+  // function increaseCounter() {
+  //   counter++;
+  //   counterElement.innerText = counter;
+  // }
   
-  function decreaseCounter() {
-    counter--;
-    counterElement.innerText = counter;
-  }
+  // function decreaseCounter() {
+  //   counter--;
+  //   counterElement.innerText = counter;
+  // }
 
 
 

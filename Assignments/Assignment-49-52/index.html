@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+
+/* q 2............................................................................. */
+/* .hidden {
+  display: none;
+} */
+
+
+/* q 3..................................................................... */
+
+#student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#student-table th,
+#student-table td {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+#student-table th {
+  background-color: lightgray;
+}
+
+#edit-form-container {
+  margin-top: 1rem;
+}
+
+</style>
+
+
+
+    <!-- Assignment -49-52  -->
+
+    <!-- <form onsubmit="submitForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      
+        <button type="submit">Submit</button>
+      </form>
+      
+      <p id="form-data"></p>
+       -->
+ 
+
+
+<!-- 
+       2. Suppose in your webpage there is content area in which 
+       you have entered your item details, but user can only see 
+       some details on first look. When user clicks on “Read 
+       more” button, full detail of that particular item will be 
+       displayed.  -->
+
+       <!-- question no 2........................................................................ -->
+
+       <!-- <div class="item-details">
+         <h2>ABOUT BANOQABIL</h2>
+        <button id="readMoreBtn" onclick="closeText()">Read more</button>
+        <p id="moreText" style="display: none;">KARACHI: The first training class of the Alkhidmat’s Bano Qabil free IT education programme for youth will start on February 13 and around 10,000 students have been accommodated in the initial programme.
+
+            While, another 10,000 students will be accommodated in the second phase. An orientation programme was conducted during the last two days at Alkhidmat’s head office where students were given necessary directions and introduced to the instructors of different courses who explained the scope and features of each course to the students.
+            
+            A help desk has also been put up at the head office to resolve students’ issues and inform them of the allocation of their centers. Speaking to the students, Naveed Ali Baig, CEO Alkhidmat said that Alkhidmat had put in a great deal of effort in planning and executing the programme, and now it was the students’ turn to put in their best efforts to benefit from their courses and make the programme a success.
+            
+            He assured them that Alkhidmat had brought together the best professionals in their respective fields to teach these courses, and cautioned them that missing a single class would result in a big loss.
+            
+            Director Bano Qabil Programme Farooq Kamlani said that Bano Qabil was a pioneering initiative in the history of Karachi that would help the educated youth of Karachi get good jobs as well as launch their freelancing careers, thus benefitting themselves, their families as well as the nation..</p>
+      </div>   -->
+
+
+
+<!-- question no 3..................................................... -->
+
+<form id="student-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="roll-number">Roll Number:</label>
+    <input type="text" id="roll-number" name="roll-number">
+    <button type="submit">Add Student</button>
+  </form>
+
+  <table id="student-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll Number</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+<!-- <tr>
+        <td><button style="background-color: #d87373" onclick="deleteRow(this)">Delete</button></td>
+        <td><button style="background-color: #d87373" onclick="deleteRow(this)">Delete</button></td>
+    </tr> -->
+
+
+
+    </tbody>
+  </table>
+
+
+
+  <div id="edit-form-container" style="display: none;">
+    <form id="edit-form">
+      <label for="edit-name">Name:</label>
+      <input type="text" id="edit-name" name="name">
+      <label for="edit-roll-number">Roll Number:</label>
+      <input type="text" id="edit-roll-number" name="roll-number">
+      <button type="submit">Save Changes</button>
+      <button type="button" id="cancel-edit">Cancel</button>
+    </form>
+  </div>
+
+
+
+
+
+  <!-- <button onclick="editWork()">Edit Work</button> -->
+
+
+
+
+
+    <script src="./app.js">
+    </script>
+</body>
+</html>

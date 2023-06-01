@@ -168,25 +168,24 @@
 //For character codes of a-z, A-Z & 0-9, refer to ASCII
 //table at the end of this document.
 
-//  var password = prompt("Enter a password that contains alphabets and numbers, is at least 6 characters long and doesn't start with a number:");
+ var password = prompt("Enter a password that contains alphabets and numbers, is at least 6 characters long and doesn't start with a number:");
 
-//   while (true) {
-//     if (password.length < 6) {
-//         password = prompt("Password is too short. Please enter a password that is at least 6 characters long:");
-//      }
-//      else if (/^[0-9]/.test(password)) {
-//         password = prompt("Password cannot start with a number. Please enter a password that starts with an alphabet:");
-//     }
-//      else if (!/[a-zA-Z]/.test(password) || !/[0-9]/.test(password)) {
-//         password = prompt("Password must contain both alphabets and numbers. Please enter a password that contains both alphabets and numbers:");
-//     } 
+    if (password.length > 6) {
+ alert("password is valid")  
+     }
+     else if (password==="0-9") {
+        alert("password is valid")
+    }
+     else if (password === "a-z" && "A-Z" && password=== "0-9") {
+       alert("password is valid")
+    } 
 
-//     else {
-//         alert("Password is valid!");
+    else {
+        alert("Password is invalid!");
 
-//     }
+    }
 
-// }
+
 
 //16. Write a program to convert the following string to an 
 //array using string split method.
