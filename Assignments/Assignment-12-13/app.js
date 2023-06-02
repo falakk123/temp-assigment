@@ -5,25 +5,20 @@
 
 
 // var character = prompt("check a character");
-// // ascii = ord(char)
+// var ascii = character.charCodeAt(0)
 
-// if (character >=48 && character <=65   ) {
+// if (ascii >=48 && ascii<= 65 ) {
 //     alert(character + ' is a number')
 // }
-// else if (character  >= 65 && character <= 90){
+// else if (ascii  >= 65 && ascii <= 90){
 //     alert(character + ' is an uppercase letter')
 // }
-// else if (character >=90     && character <= 122){
+// else if (ascii >=97  && ascii <= 122){
 //     alert(character + ' is a lowercase letter')
 // }
 // else{
-//     print(char + ' is not a number or letter')
+//     alert('It is not a number or letter')
 // }
-
-
-
-
-
 
 
 //2. Write a JavaScript program that accept two integers and
@@ -34,13 +29,13 @@
 // var num2 =  +prompt("Enter the second number: ")
 
 // if (num1 > num2) {
-//     console.log(num1 + " is larger than " + num2)
+//     document.write(num1 + " is larger than " + num2)
 // }
 //  else if (num1 < num2) {
-//     console.log(num1 + " is smallest than " + num2)
+//     document.write(num1 + " is smallest than " + num2)
 //  }
 // else {
-//     console.log("Both numbers are equal.");
+//     document.write("Both numbers are equal.");
 // }
 
 
@@ -52,10 +47,10 @@
 
 // if (number > 0) {
 //     alert("The number is positive.")
-//}
-// else if (number < 0)[
+// }
+// else if (number < 0){
 //     alert("The number is negative.")
-//}
+// }
 // else{
 //     alert("The number is zero.")
 // }
@@ -65,15 +60,13 @@
 //length 1) and returns true if it is a vowel, false otherwise
 
 
-// var vowel = prompt('Enter a character: ')
-// var vowelLetters = ('a','e','i','o','u')
+//  var vowel = prompt('Enter a character: ')
 
-// if (vowel === 'vowelLeters' ||  vowel ===  'VowelLeters'){
-//     alert(vowel + " is a True")
-// }
-// else {
-//     alert(vowel + " is a False")
-// }
+// if (input === "a" || input === "e" || input === "i" || input === "o" || input === "u" || input === "A" || input === "E" || input === "I" || input === "O" || input === "U") {
+//     document.write("True");
+//   } else {
+//     document.write("False");
+//   }
 
 
 //5. Write a program that
@@ -91,7 +84,7 @@
 // var correctPassword = "0123456xyz"; 
 // var userPassword = prompt("Enter your password: ");
 
-//  if (userPassword) {
+//  if (!userPassword) {
 //    alert('Please enter your password');} 
 //  else if (userPassword === correctPassword) {
 //   alert('Correct! The password you entered matches the original password');

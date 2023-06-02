@@ -2,12 +2,24 @@
 //required arithmetic to display the following result in your
 //browser:
 
+// var num = 10;
+// const result = "The value of num is: "+num+"<br>"
 
-// var a = 1;
-// var b = 1;
-// var result = a+b;
-// document.write("The value of a+b is  "  +result)
+// document.write("RESULT: "+"<br>"+"The Value Of num is: "+num+"<br>"+"........................................"+"<br>")
 
+// document.write("The value of ++num is: " + ++num+"<br>")
+//  document.write("Now the value of num is: "+num+"<br>"+"<p>")
+            
+// document.write("The value of num++ is: "+ num++ +"<br>")
+// document.write("Now the value of num is: "+num+"<br>"+"<p>")
+            
+// document.write("The value of --num is: "+--num+"<br>")
+// document.write("Now the value of num is: "+num+"<br>"+"<P>")
+               
+// document.write("The value of num-- is: "+num--+"<br>")
+// document.write("Now the value of num is: "+num+"<br>"+"<p>");
+
+// document.write(result);
 
 
 //2. What will be the output in variables a, b & result after
@@ -20,16 +32,12 @@
 //--a - --b + ++b;
 //--a - --b + ++b + b--;
 
-
 // var a = 2, b = 1;
 // var result = --a - --b + ++b + b--;
 
-// document.write("a is:  -2"+"<br>")
-
-
-
-
-
+// document.write("The value of a is: "+a+"<br>");
+// document.write("The value of b is: "+b+"<br>")
+// document.write("The value of result is: "+result+"<br>");
 
 
 //3. Write a program that takes input a name from user & 
@@ -44,14 +52,21 @@
 //does not enter a new number, multiplication table of 5 
 //should be displayed by default
 
-// var num = +prompt("Enter a number:");
-// if (num === prompt || num === prompt) {
+// var number = prompt("Enter a number:");
+
+// if (!number) {
+//    number = 5; 
+//   document.write ("<h1> Table of "+number+"</h1>");
+
+//   for(var i=1; i<=10; i++){
+//   document.write("<h3>" + number + " x "+ i +" = "+ (number * i) +"</h3>");}
 // }
-// else if (num === "5" || num === 5) {
-//     num = 5;
-// }
-// for (var i = 1; i <= 10; i++) {
-//     document.write(num + " x " + i + " = " + (num * i) + "<br>");
+// else {
+//    var any = number ;
+//    document.write ("<h3> Table of "+number+"</h>");
+
+//    for(var i=1; i<=10; i++){
+//       document.write("<h3>" + number+ " x "+ i +" = "+ (number * i) +"</h3>");}
 // }
 
 
@@ -73,7 +88,6 @@
 // var subject1 = prompt("Enter name of subject 1:");
 // var subject2 = prompt("Enter name of subject 2:");
 // var subject3 = prompt("Enter name of subject 3:");
-// // var obtained = 100;
 // var obtainedMarks1 = +prompt("Enter obtained marks for " + subject1 + ":");
 // var obtainedMarks2 = +prompt("Enter obtained marks for " + subject2 + ":");
 // var obtainedMarks3 = +prompt("Enter obtained marks for " + subject3 + ":");
@@ -87,8 +101,8 @@
 // document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks1 + "</td><td>"+ obtainedMarks1/totalMarks*100 + "%"+"</td></tr>");
 // document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks2 + "</td><td>"+obtainedMarks2/totalMarks*100 + "%"+"</td></tr>");
 // document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks3 + "</td><td>"+obtainedMarks3/totalMarks*100 + "%"+"</td></tr>");
-// document.write("<tr><th></th><th>" + (totalMarks * 3) + "</th><th>" + totalObtainedMarks + "</th></tr>");
-// document.write("<tr><th></th><th>Percentage</th><th>" + percentage.toFixed(3) + "%"+"</th></tr>");
+
+// document.write("<tr><td>"+"</td><td>"+(totalMarks*3)+ "</td><td> "+totalObtainedMarks+ "</td><td>" +percentage.toFixed(3)+"%"+"</td></tr>")
 // document.write("</table>");
 // document.write("<table>"+"<table>")
 

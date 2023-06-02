@@ -182,6 +182,27 @@
 // var year = (currentYear)-(birthYear);
 // document.write("your age is " +year+"<br>")
 
+//12. The Geometrizer: Calculate properties of a circle.
+//a. Store a radius into a variable.
+//MATH EXPRESSIONS | JAVASCRIPT
+//Page 8 of 9
+//b. Calculate the circumference based on the radius, and
+//output “The circumference is NN”.
+//(Hint : Circumference of a circle = 2 π r , π = 3.142)
+//Calculate the area based on the radius, and output “The 
+//area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+
+
+// var radius = 6; 
+// var pi = 3.142;
+// var circumference = 2 * pi * radius;
+// var area = pi * radius * radius;
+
+// document.write("The circumference is " +circumference+"</br>");
+// document.write("The area is "+area);
+
+
+
 
 //13. The Lifetime Supply Calculator: Ever wonder how
 //much a “lifetime supply” of your favorite snack is? 

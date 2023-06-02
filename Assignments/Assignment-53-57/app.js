@@ -27,16 +27,15 @@
 // var zoomOutButton = document.getElementById('zoom-out');
 
 // zoomInButton.addEventListener('click', function() {
-//   var fontSize = parseInt(window.getComputedStyle(paragraph).fontSize);
-//   paragraph.style.fontSize = `${fontSize + 10}px`;
+//   var fontSize =  parseInt(window.getComputedStyle(paragraph).fontSize);
+//   paragraph.style.fontSize = (fontSize + 10 + "px")     
 // });
 
 // zoomOutButton.addEventListener('click', function() {
 //   var fontSize = parseInt(window.getComputedStyle(paragraph).fontSize);
-//   paragraph.style.fontSize = `${fontSize - 10}px`;
+//   paragraph.style.fontSize =   (fontSize - 10 + "px");
 // });
-
-
+//   paragraph.style.fontSize =  "50px"
 
 
 

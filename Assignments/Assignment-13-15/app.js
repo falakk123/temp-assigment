@@ -1,24 +1,23 @@
 //1. Declare an empty array using JS literal notation to store
 //student names in future.
 
-// var studentsNames = [];
+//  var studentsNames = [];
 
 // studentsNames.push['hila'];
 // studentsNames.push['fasiha'];
 // studentsNames.push['huma'];
 
-// console.log(studentsNames)
+////console.log(studentsNames)
 
 
 //2.Declare an empty array using JS object notation to store
 //student names in future.
 
+// let studentNames = {}
 
-// var studentNames = new Array();
+// studentNames["name1"] = "falak";
+// studentNames["name2"] = "usama";
 
-// studentNames.push('fasiha');
-// studentNames.push('hila');
-// studentNames.push('huma');
 
 // var newStudentNames = new Array('John', 'Jane', 'Bob');
 
@@ -43,8 +42,8 @@
 
 //6. Declare and initialize a mixed array.
 
-//var mixedArray = [1, "two", false];
-//console.log(mixedArray)
+// var mixedArray = [1, "two", false];
+// console.log(mixedArray)
 
 
 //7. Declare and Initialize an array and store available
@@ -73,6 +72,7 @@
 // document.write('6) '+qualifications[6]+'<br>')
 // document.write('7) '+qualifications[7]+'<br>')
 
+
 //8. Write a program to store 3 student names in an array.Take
 //another array to store score of these three students.
 //Assume that total marks are 500 for each student, display
@@ -85,8 +85,9 @@
 // var names = ["Huma", "Hila", "Fasiha"];
 // var scores = [320, 470, 230];
 // document.write("<h4>"+"SCORE OF HUMA IS "+scores[0]+ "."  +  "  PERCENTAGE IS: "  +320*100/500+" %"+"<br>")
-// document.write("<h4>"+"SCORE OF HUMA IS "+scores[1]+ "."  +  "  PERCENTAGE IS: "  +470*100/500+" %"+"<br>")
-// document.write("<h4>"+"SCORE OF HUMA IS "+scores[2]+ "."  +  "  PERCENTAGE IS: "  +230*100/500+" %"+"<br>")
+// document.write("<h4>"+"SCORE OF HILA IS "+scores[1]+ "."  +  "  PERCENTAGE IS: "  +470*100/500+" %"+"<br>")
+// document.write("<h4>"+"SCORE OF FASIHA IS "+scores[2]+ "."  +  "  PERCENTAGE IS: "  +230*100/500+" %"+"<br>")
+
 
 //9. Initialize an array with color names. Display the array
 //elements in your browser.
@@ -174,20 +175,23 @@
 //selected cities list:
 //islamabad,queta
 
+
 // var cities = ["karachi","lahore", "queta", "islamabad", "peshawar"];
 // var selectedCities = [];
 // selectedCities = cities.slice(2 , 4);
 // console.log("Selected cities list: " + selectedCities+ ", ");
 
+
 //Write a program to create a single string from the 
 //below mentioned array:
 //var arr = [“This ”, “ is ”, “ my ”, “ cat”];
-//(Use array’s join method)
+//use array joined method
 
 
 // var arr = ["This "," is "," my ","cat"];
 // console.log("ARRAY:"+arr)
 // console.log(arr.join(" "))
+
 
 //13. Create a new array. Store values one by one in such a way
 //that you can access the values in the order in which they 

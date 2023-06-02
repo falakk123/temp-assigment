@@ -19,18 +19,18 @@
 // displayed. 
 
 
-// function closeText() {
-//   var moreText = document.getElementById("moreText");
-//   var readMoreBtn = document.getElementById("readMoreBtn");
+function closeText() {
+  var moreText = document.getElementById("moreText");
+  var readMoreBtn = document.getElementById("readMoreBtn");
 
-//   if (moreText.style.display === "none") {
-//     moreText.style.display = "block";
-//     readMoreBtn.textContent = "Close";
-//   } else {
-//     moreText.style.display = "none";
-//     readMoreBtn.textContent = "Read More";
-//   }
-// }
+  if (moreText.style.display === "none") {
+    moreText.style.display = "block";
+    readMoreBtn.textContent = "Close";
+  } else {
+    moreText.style.display = "none";
+    readMoreBtn.textContent = "Read More";
+  }
+}
 
 
 

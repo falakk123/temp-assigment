@@ -3,7 +3,9 @@
 
 // var multiArr = [[]];
 //  var multiArr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+// document.write(multiArr)
 // console.log(multiArr)
+
 
 //2. Declare and initialize a multidimensional array 
 //representing the following matrix:
@@ -18,11 +20,11 @@
 
 //3. Write a program to print numeric counting from 1 to 10.
 
-// for (let i = 1; i <= 10; i++) {
+// for (var i = 1; i <= 10; i++) {
 //     console.log(i);
 // }
 
-// for (let i = 1; i <= 10; i++) {
+// for (var i = 1; i <= 10; i++) {
 //     document.write(i + "<br>");
 // }
 
@@ -48,7 +50,7 @@
 // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
 // for (let i = 0; i < fruits.length; i++) {
-//     document.write(fruits[i]+"<br>"+"<p>");
+//     document.write("<li>"+fruits[i]+"<br>"+"</li>"+"<p>");
 // }
 
 // document.write("Element at index 0 is "+fruits[0]+"<br>")
@@ -95,6 +97,7 @@
 //     document.write( i + "k, ");
 // }
 
+
 //7. You have an array
 //A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
 //Write a program to enable “search by user input” in an 
@@ -104,24 +107,7 @@
 //cookie is available in index 2
 //sorry pastrie is not available
 
-// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
-// var userInput = prompt("Enter an item to search for:");
-// var index = -1;
-// for (var i = 0; i < A.length; i++) {
-
-
-//     if (A[i] === userInput) {
-//         document.write(userInput + " is available at index " + i + "<br>");
-//        index = i;
-//     }
-
-// }
-//  if (index) {
-//     document.write("Sorry, " + userInput + " is not available");
-// }
-
-
-
+// alert("WELCOM! in my bakery")
 // var A = ["cake", "apple pie", "cookie", "chips", "patties"];
 // var userInput = prompt("Enter an item to search for:");
 // var index = -1;
@@ -133,7 +119,7 @@
 // }
 
 // if (index !== -1) {
-//     alert(userInput + " is available at index "+ (index)+" in our bakery.");
+//     alert(userInput + " is available ain index "+ (index)+" in our bakery.");
 // } else {
 //     alert(userInput + " is not available in our bakery.");
 // }
@@ -169,13 +155,8 @@
 
 //  var smallest = A[4];
 
-//  for (var i = 1; i < A.length; i++) {
-//      if (A[4] > smallest) {
-   
-//     }
-//  }
-
 //  document.write("The smallest number in the array is " + smallest);
+
 
 
 //Write a program to print multiples of 5 ranging 1 to 
@@ -183,12 +164,12 @@
 //5 , 10 , 15 , 20 , 25 , 30 , 35 , 40 , 45 , 50 , 55, 60, 65, 70, 75, 80, 95, 100
 
 
-// var int = [5 , 10 , 15 , 20 , 25 , 30 , 35 , 40 , 45 , 50 , 55, 60, 65, 70, 75, 80, 95, 100]
+//var int = [5 , 10 , 15 , 20 , 25 , 30 , 35 , 40 , 45 , 50 , 55, 60, 65, 70, 75, 80, 95, 100]
 
-// 		for (var i =1 ; i<100 ; i++) {
-// 			if (i%5==0)
-//             document.write(i +", ");			
-// 		}
-        
+// for (var i =1 ; i<100 ; i++) {
+// if (i%5==0)
+// document.write(i +", ");			
+// }
 
+////document.write(int[0]+", "+int[1]+", "+int[2]+", "+int[3]+", "+int[4]+", "+int[5]+", "+int[6]+", "+int[7]+", "+int[8]+", "+int[9]+", "+int[10]+", "+int[11]+", "+int[12]+", "+int[13]+", "+int[14]+", "+int[15]+", "+int[16]+", "+int[17])
 
