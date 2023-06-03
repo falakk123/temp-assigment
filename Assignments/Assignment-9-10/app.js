@@ -122,10 +122,10 @@
 //Show the total marks, marks obtained, percentage, grade &
 //remarks like
 
-// var subject1 = prompt("Enter marks obtained in Physics ");
-// var subject2 = prompt("Enter marks obtained in bBology");
-// var subject3 = prompt("Enter marks obtained in Islamiate");
-// var totalMarks = prompt("Enter total marks");
+// var subject1 = +prompt("Enter marks obtained in Physics ");
+// var subject2 = +prompt("Enter marks obtained in bBology");
+// var subject3 = +prompt("Enter marks obtained in Islamiate");
+// var totalMarks = +prompt("Enter total marks");
 
 // var obtainedMarks = subject1 + subject2 + subject3;
 // var percentage = (obtainedMarks / totalMarks) * 100;

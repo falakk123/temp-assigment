@@ -60,7 +60,7 @@
 //length 1) and returns true if it is a vowel, false otherwise
 
 
-//  var vowel = prompt('Enter a character: ')
+//  var input = prompt('Enter a character: ')
 
 // if (input === "a" || input === "e" || input === "i" || input === "o" || input === "u" || input === "A" || input === "E" || input === "I" || input === "O" || input === "U") {
 //     document.write("True");

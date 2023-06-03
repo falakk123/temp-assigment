@@ -1,24 +1,24 @@
 
 //1. Write a function that displays current date & time in your 
 //browser
+// function date()
+//  {
+//     document.write(new Date());
+// }
+//  date();
 
-//  var date = new Date();
-//  document.write(date);
 
 //first name and then //2. Write a function that takes first & lait 
 //greets the user using his full name
 
 
-//  function greetUser(firstName, lastName) {
-
-//    var firstName = "falak"
-//    var lastName = "Muhammad Arif"
-
-
-//     var fullName = firstName + " " + lastName;
-//     alert("Hello, " + fullName + "!");
-
+//   function greeting(first,last)
+//   {
+//        document.write(first.concat(" ",last));
 //   }
+//   greeting("falak","arif");
+  
+
 
 //3. Write a function that adds two numbers (input by user) 
 //and returns the sum of two numbers.
@@ -48,14 +48,15 @@
 //       result = num1 + num2;
 //     } 
 //     else if (operator === "-") {
-//      else if (operator === "*") {
 //       result = num1 - num2;
 //     }
+//     else if (operator === "*") {
 //       result = num1 * num2;
-//     }
+// }
 //      else if (operator === "/") {
 //       result = num1 / num2;
 //     }
+
 //     else {
     
 //   result = "Invalid operator";
@@ -63,7 +64,6 @@
     
 //     return result;
 //   }
-
 //   var result = calculator(9, 9, "*");
 //       document.write(result);
 
@@ -78,6 +78,7 @@
 // console.log(square(4));
 
 
+//6. Write a function that computes factorial of a number.
 
 // function factorial(integer) {
 //     if (integer === 0) {
@@ -132,7 +133,8 @@
 //   var hypotenuse = calculateHypotenuse(base, perpendicular);
   
 
-//   console.log("The hypotenuse of a right triangle with base " +base+ "and perpendicular " +perpendicular+ "is" +hypotenuse);
+//   console.log("The hypotenuse of a right triangle with base " +base+ " and perpendicular " +perpendicular+ " is " +hypotenuse);
+
 
 
 //9. Write a function that calculates the area of a rectangle.
@@ -154,7 +156,8 @@
 // var width = 7;
 // var height = 12;
 // var a2 = calculateTheArea(width, height);
-// document.write("The area of a rectangle with width "+ width+ "and height " +height+ "is "+a2);
+// document.write("The area of a rectangle with width "+ width+ "and height " + "is "+a2);
+
 
 
 // 10. Write a JavaScript function that checks whether a passed 

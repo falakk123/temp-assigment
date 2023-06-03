@@ -21,7 +21,7 @@
 //c. floor value of the number
 //d. ceil value of the number
 
-// var num = prompt("Enter a positive integer:");
+// var num = prompt("Enter a negative floating number:");
 // document.write("<h3>Number:</h3>" + num);
 // document.write("<h3>Round off value:</h3>" + Math.round(-num));
 // document.write("<h3>Floor value:</h3>" + Math.floor(-num));
@@ -51,23 +51,21 @@
 //method of JS Math class. Display the value of coin in your
 //browser
 
-
-// var coin = 2;
-// document.write(coin+"<br>"+" random diece value" +"<br>")
-// randomNum = math.floor(Math.random() * 6)+ 1;
-//  document.write( "random diec value" + randomNum)
-
-
+//  var coin = Math.floor(Math.random()*3);
+//  if(coin===1)
+//  document.write(coin+"<br>Random coin value: Tails");
+//  else if (coin===2)
+//  document.write(coin+"<br>Random coin value: Heads");
+ 
 
 
 //6. Write a program that shows a random number between 1 
 //and 100 in your browser.
 
 
-// var randomNum ;
-// randomNum = Math.ceil(Math.random() * 100);
-// document.write("Random number between 1 and 100: " + randomNum)
-
+// var random;
+// random = Math.floor(Math.random() * 100) + 1;
+// document.write("Random number between 1 and 100: "+ random );
 
 
 //7. Write a program that asks the user about his weight. Parse 
@@ -79,7 +77,8 @@
 //d. 50.2kilograms
 
 
-//var user = prompt("Enter your weight")
+// var user = prompt("Enter your weight")
+// document.write("The weight of user is "+user);
 
 
 //8. Write a program that stores a random secret number from 

@@ -21,7 +21,8 @@
 //“Pakistani” and display the result in your browser 
 
 // var word = "Pakistani";
-// document.write("String of:  The index of the letter 'n' in the word 'Pakistani' is " + word.indexOf("n") + ".");
+// document.write("String : 'Pakistani' "+"<br>")
+// document.write("index of" +" 'n' "+" :" + word.indexOf("n"));
 
 //4. Write a program to find the last index of letter “l” in the 
 //word “Hello World” and display the result in your browser.
@@ -29,7 +30,8 @@
 
 // var word = "Hello World";
 
-// document.write("String of:  The last index of the letter 'l' in the word 'Hello World' is " + word.lastIndexOf("l") + ".");
+// document.write("String: "+word+"<br>")
+// document.write("last index of "+" 'l': " + word.lastIndexOf("l"));
 
 
 //5. Write a program to find the character at 3rd index in the 
@@ -38,7 +40,7 @@
 // var word = 'Pakistani';
 // var find = 3;
 
-// document.write("value of 3 index is :"+word[3])
+// document.write("string: pakistani "+"<br>"+"character at index 3: "+word[3])
 
 
 //6. Repeat Q1 using string concat() method.
@@ -57,8 +59,8 @@
 
 // var city = "Hyderabad";
 // var newCity = city.replace("Hyderabad", "Islamabad");
-// document.write("Original city name: " + city + "<br>");
-// document.write("New city name: " + newCity);
+// document.write("City: " + city + "<br>");
+// document.write("After replacement: " + newCity);
 
 
 //8. Write a program to replace all occurrences of “and” in the
@@ -80,6 +82,7 @@
 // document.write(" value: " + stringNumber + "<br>"+"Type:"+"string"+"<br>");
 // document.write(" value: " + number + "<br>"+"Type:"+"number");
 
+
 //10. Write a program that takes user input. Convert and 
 //show the input in capital letters
 
@@ -87,24 +90,21 @@
 // document.write("User Input:  "+userInput+"<br>")
 // document.write("Upper case: " + userInput.toUpperCase(0))
 
+
 //11. Write a program that takes user input. Convert and 
 //show the input in title case.
 
 
 //  var userName = prompt("Enter Your Name Please");
-//  var ahead = userName.slice(1);
+//  var title = userName.slice(1);
 //  var firstLetter = userName.slice(0,1);
-//  alert(firstLetter.toUpperCase()+ahead.toLowerCase());
+//  alert(firstLetter.toUpperCase()+title.toLowerCase());
   
 
 //12. Write a program that converts the variable num to 
 //string.
 //var num = 35.36 ;
 //Remove the dot to display “3536” display in your browser
-
-// var num = 35.36;
-// var result = num.replace("." , "3")
-// document.write(result)
 
 // var num = 35.36;
 // var Remove = num.toString().replace(".", "");
@@ -151,7 +151,7 @@
 // }
 
 // if (index !== -1) {
-//     alert(userInput + " is available at index "+ (index)+" in our bakery.");
+//     alert(userInput + " is available at index "+ index+" in our bakery.");
 // } else {
 //     alert(userInput + " is not available in our bakery.");
 // }
@@ -168,37 +168,54 @@
 //For character codes of a-z, A-Z & 0-9, refer to ASCII
 //table at the end of this document.
 
- var password = prompt("Enter a password that contains alphabets and numbers, is at least 6 characters long and doesn't start with a number:");
 
-    if (password.length > 6) {
- alert("password is valid")  
-     }
-     else if (password==="0-9") {
-        alert("password is valid")
-    }
-     else if (password === "a-z" && "A-Z" && password=== "0-9") {
-       alert("password is valid")
-    } 
+// var password = prompt("Please enter your password");
+// var number = false;
+// var letter = false;
+// var startsWithLetter = false;
+// var isLong = false;
 
-    else {
-        alert("Password is invalid!");
-
-    }
-
-
-
-//16. Write a program to convert the following string to an 
-//array using string split method.
-//var university = “University of Karachi”;
-//Display the elements of array in your browser
-
-
-// var university = "Karachi University";
-
-// for(var i=0; i<university.length; i++){
-//     var char = university.charAt(i);
-//     document.write(char + "<br>");
+// for (var i = 0; i < password.length; i++) {
+//   var charCode = password.charCodeAt(i);
+//   if (charCode >= 48 && charCode <= 57) { 
+//     number = true;
+//   }
+//   else if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) { 
+//     letter = true;
+//     if (i === 0) { // Check if the first character is a letter
+//       startsWithLetter = true;
+//     }
+//   }
 // }
+
+// for (var i = 0; i < password.length; i++) {
+//   if (password.length >= 6) { 
+//     isLong = true;
+//   }
+// }
+
+// if (!number || !letter || !startsWithLetter || !isLong) {
+//   alert("Please enter a valid password that contains at least one letter, one number, does not start with a number, and is at least 6 characters long");
+// }
+// else {
+//   alert("Your password is valid");
+// }
+
+
+
+// 16. Write a program to convert the following string to an 
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser
+
+//var university = "University of Karachi";
+//var arr = university.split("");
+///document.write(arr); 
+
+//for(var i=0; i<arr.length; i++)
+//{
+ //   document.write(arr[i] + "<br>");
+//}
 
 
 //17. Write a program to display the last character of a user 

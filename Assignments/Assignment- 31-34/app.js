@@ -9,8 +9,8 @@
 ///2. Write a program that alerts the current month in words. 
 //For example December.
 
-//  var d = new Date();
-//  var currentMonth = d.getMonth();
+//  var m = new Date();
+//  var currentMonth = m.getMonth();
 
 // alert(currentMonth)
 
@@ -62,13 +62,13 @@
 // var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
-// var dayNumber = now.getDay();
+// var dayNumber = new Date().getDay();
 
 
 // var dayName = dayNames[dayNumber];
 
 
-// if (dayName === "Saturday" || dayName === "Sunday") {
+// if (dayName === "Saturday" || dayName === "Saturday" || dayName === "Sunday" || dayName === "Sunday") {
 //   alert("It's Fun day");
 
 // } 
@@ -100,7 +100,6 @@
 //midnight, Jan. 1, 1970 and assigns it to a variable that 
 //hasn't been declared beforehand. Use any variable you like 
 //to represent the Date object.
-
 
 
 // var januaryFirst1970 = new Date(0);
@@ -192,7 +191,7 @@
 
 // currentDate.setFullYear(currentDate.getFullYear() - 100); 
 
-// alert("Date 100 years back It was sun: " + currentDate);
+// alert(" 100 years back It was sun: " + currentDate);
 
 
 //13. Write a program to ask the user about his age. Calculate 
@@ -207,7 +206,6 @@
 // var birthYear = currentDate.getFullYear() - age; 
 
 // document.write("Your birth year is: " + birthYear);
-
 
 
 //14. Write a program to generate your K-Electric bill in your
@@ -250,7 +248,4 @@
 // document.write("<p>Net Amount Payable (within Due Date): " + netAmountPayable.toFixed(2) + "</p>");
 // document.write("<p>Late Payment Surcharge: " + latePaymentSurcharge.toFixed(2) + "</p>");
 // document.write("<p>Gross Amount Payable (after Due Date): " + grossAmountPayable.toFixed(2) + "</p>");
-
-
-
 
