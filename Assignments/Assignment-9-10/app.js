@@ -127,7 +127,7 @@
 // var subject3 = +prompt("Enter marks obtained in Islamiate");
 // var totalMarks = +prompt("Enter total marks");
 
-// var obtainedMarks = subject1 + subject2 + subject3;
+// var obtainedMarks = subject1 + subject2 + subject3                                       ;
 // var percentage = (obtainedMarks / totalMarks) * 100;
 
 // document.write("<h1>Marks Sheet</h1><br>");

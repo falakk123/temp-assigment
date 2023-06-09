@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
 
-<style>
-
-/* q 2............................................................................. */
-/* .hidden {
+  <style>
+    /* q 2............................................................................. */
+    /* .hidden {
   display: none;
 } */
 
 
-/* q 3..................................................................... */
-
+    /* q 3..................................................................... */
+    /* 
 #student-table {
   width: 100%;
   border-collapse: collapse;
@@ -35,15 +36,37 @@
 
 #edit-form-container {
   margin-top: 1rem;
+} */
+#student-Table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-</style>
+#student-Table td, #student-Table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#student-Table tr:nth-child(even){background-color: #f2f2f2;}
+
+#student-Table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.form-hidden {
+  display: none;
+}
+  </style>
 
 
 
-    <!-- Assignment -49-52  -->
+  <!-- Assignment -49-52  -->
 
-     <!-- <form onsubmit="submitForm(event)">
+  <!-- <form onsubmit="submitForm(event)">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
       
@@ -57,22 +80,23 @@
       </form>
       
       <p id="form-data"></p>
-      
-  -->
+         -->
 
 
-<!-- 
+  <!-- 
        2. Suppose in your webpage there is content area in which 
        you have entered your item details, but user can only see 
        some details on first look. When user clicks on “Read 
        more” button, full detail of that particular item will be 
        displayed.  -->
 
-       <!-- question no 2........................................................................ -->
+  <!-- question no 2........................................................................ -->
 
-        <!-- <div class="item-details">
+  <!-- <div class="item-details">
          <h2>ABOUT BANOQABIL</h2>
-        <button id="readMoreBtn" onclick="closeText()">Read more</button>
+         <p>KARACHI: The first training class of the Alkhidmat’s Bano Qabil free IT education programme for youth will start on February 13 and around 10,000 students have been accommodated in the initial programme.
+          While, another 10,000 students will be accommodated in the second phase.</p>
+
         <p id="moreText" style="display: none;">KARACHI: The first training class of the Alkhidmat’s Bano Qabil free IT education programme for youth will start on February 13 and around 10,000 students have been accommodated in the initial programme.
 
             While, another 10,000 students will be accommodated in the second phase. An orientation programme was conducted during the last two days at Alkhidmat’s head office where students were given necessary directions and introduced to the instructors of different courses who explained the scope and features of each course to the students.
@@ -82,12 +106,14 @@
             He assured them that Alkhidmat had brought together the best professionals in their respective fields to teach these courses, and cautioned them that missing a single class would result in a big loss.
             
             Director Bano Qabil Programme Farooq Kamlani said that Bano Qabil was a pioneering initiative in the history of Karachi that would help the educated youth of Karachi get good jobs as well as launch their freelancing careers, thus benefitting themselves, their families as well as the nation..</p>
-      </div>    -->
+     
+            <button id="readMoreBtn" onclick="closeText()">Read more</button>
+          </div>      -->
 
 
 
-<!-- question no 3..................................................... -->
-<!-- 
+  <!-- question no 3..................................................... -->
+  <!--  
 <form id="student-form">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name">
@@ -104,15 +130,13 @@
         <th>Actions</th>
       </tr>
     </thead>
-    <tbody> -->
-<!-- <tr>
+    <tbody>  -->
+  <!-- <tr>
         <td><button style="background-color: #d87373" onclick="deleteRow(this)">Delete</button></td>
         <td><button style="background-color: #d87373" onclick="deleteRow(this)">Delete</button></td>
     </tr> -->
 
-
-
-    </tbody>
+  <!-- </tbody>
   </table>
 
 
@@ -126,19 +150,57 @@
       <button type="submit">Save Changes</button>
       <button type="button" id="cancel-edit">Cancel</button>
     </form>
-  </div>
-
-
-
+  </div> -->
 
 
   <!-- <button onclick="editWork()">Edit Work</button> -->
 
+  <!-- <div id="content"><p id="moreContent">Content is the information contained within communication media.
+     This includes internet, cinema, television, radio, audio CDs, 
+     <br><button  onclick="more()">ReadMore</button></p></div> -->
 
+  <!-- question 3 -->
+<!-- 
+   <div class="studentform">
+    <center><h1>Student Form</h1></center>
+  </div>
 
+<center><div class="formdetails">
+    <form onsubmit="addStudent(event)">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+      <label for="rollnumber">roll number:</label>
+      <input type="number" name="rollnumber" id="rollnumber" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 
+  <br>
 
-    <script src="./app.js">
-    </script>
+  <form id="editForm" class="hidden" onsubmit="saveEdit(event)">
+    <label for="name">Name:</label>
+    <input type="text" id="editname" name="name">
+    <label for="rollnumber">roll-number:</label>
+    <input type="text" id="editrollnumber" name="rollnumber">
+    <button type="submit">Save</button>
+    <button type="button" onclick="cancelEdit()">Cancel</button>
+  </form></center>
+  <br>
+<br>
+    <table id="student-Table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll-number</th>
+        <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table> -->
+
+  <script src="./app.js">
+  </script>
 </body>
+
 </html>

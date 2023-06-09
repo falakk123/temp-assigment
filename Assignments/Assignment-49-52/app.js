@@ -19,18 +19,18 @@
 // displayed. 
 
 
-function closeText() {
-  var moreText = document.getElementById("moreText");
-  var readMoreBtn = document.getElementById("readMoreBtn");
+// function closeText() {
+//   var moreText = document.getElementById("moreText");
+//   var readMoreBtn = document.getElementById("readMoreBtn");
 
-  if (moreText.style.display === "none") {
-    moreText.style.display = "block";
-    readMoreBtn.textContent = "Close";
-  } else {
-    moreText.style.display = "none";
-    readMoreBtn.textContent = "Read More";
-  }
-}
+//   if (moreText.style.display === "none") {
+//     moreText.style.display = "block";
+//     readMoreBtn.textContent = "Close";
+//   } else {
+//     moreText.style.display = "none";
+//     readMoreBtn.textContent = "Read More";
+//   }
+// }
 
 
 
@@ -43,61 +43,77 @@ function closeText() {
 // appear with the values of that row.
 
 
-// const studentForm = document.querySelector('#student-form');
-// const studentTable = document.querySelector('#student-table tbody');
-
-// studentForm.addEventListener('submit', (event) => {
+// function addStudent(event){
 //   event.preventDefault();
-//   const nameInput = document.querySelector('#name');
-//   const rollNumberInput = document.querySelector('#roll-number');
-//   const name = nameInput.value;
-//   const rollNumber = rollNumberInput.value;
-//   if (name.trim() === '' || rollNumber.trim() === '') {
-//     return;
-//   }
-//   const row = document.createElement('tr');
-//   row.innerHTML = `
-//     <td>${name}</td>
-//     <td>${rollNumber}</td>
 
-//     <td><button style="background-color: #d87373" onclick="deleteRow(this)">Delete</button>
-//     <button style="background-color: #d87373" onclick="editWork">Edit</button></td>
+// var studentName = document.getElementById('name').value;
+// console.log(studentName);
+
+// var studentAge = document.getElementById('rollnumber').value;
+// var row = document.createElement('tr');
+// var nameData = document.createElement('td');
+// var ageData = document.createElement('td');
+// var actionData = document.createElement('td');
+// nameData.textContent = studentName;
+// ageData.textContent = studentAge;
+
+// var deleteButton = document.createElement('button');
+// deleteButton.textContent = 'delete';
+// deleteButton.addEventListener('click',removeRow);
+
+// var editButton = document.createElement('button');
+// editButton.textContent = 'edit';
+// editButton.addEventListener('click',editRow)
+
+// actionData.appendChild(editButton);
+// actionData.appendChild(deleteButton);
+
+// row.appendChild(nameData);
+// row.appendChild(ageData);
+// row.appendChild(actionData);
+
+// var studentTable = document.getElementById("student-Table");
+// studentTable.appendChild(row);
+// }
+// function removeRow(event){
+//   const row = event.target.parentNode.parentNode;
+//           row.parentNode.removeChild(row);
+// }
+// function cancelEdit(){
+
+//   editForm.classList.add("hidden");
+
+// }
+// function editRow(event){
+//   var row = event.target.parentNode.parentNode;
+//   console.log(row);
   
-//     `;
-//   studentTable.appendChild(row);
-//   nameInput.value = '';
-//   rollNumberInput.value = '';
-// });
+//   var nameCell = row.getElementsByTagName('td')[0];
+//   var ageCell = row.getElementsByTagName('td')[1];
 
-// function deleteRow(btn) {
-//        var row = btn.parentNode.parentNode;
-//        row.parentNode.removeChild(row);
-//      }
+//   var editName = document.getElementById('editname');
+//   var editAge = document.getElementById('editrollnumber');
 
-//       studentForm.addEventListener('edit', () => 
+//   editName.value = nameCell.textContent;
+//   editAge.value = ageCell.textContent;
 
-//         function editWork() {
-//           const workTitle = document.querySelector('#edit-form-container');
-    
-//           const workDescription = document.querySelector('#edit-form');
-    
-//           workTitle.textContent = 'New Work Title';
-          
+//   editForm.classList.remove('hidden');
+//   editForm.dataset.rowIndex = row.rowIndex;
+// }
+// function saveEdit(event){
+//   event.preventDefault();
+//   var index = editForm.dataset.rowIndex;
+//   console.log(index);
+//   var row = studentTable.rows[index];
+//   console.log(row);
 
-//         const nameInput = document.querySelector('#name');
-//         const rollNumberInput = document.querySelector('#roll-number');
-//         const name = nameInput.value;
-//         const rollNumber = rollNumberInput.value;
-//         if (name.trim() === '' || rollNumber.trim() === '') {
-//           return;
-//         }
-//     }
+//   var editName = document.getElementById('editname').value;
+//   var editrollnumber = document.getElementById('editrollnumber').value;
 
-//       )
-
-
-
-
+//   nameCell.textContent = editName;
+//   rollnumberCell.textContent =   editrollnumber ;
+//   editForm.classList.add('hidden');
+// }
 
 
 

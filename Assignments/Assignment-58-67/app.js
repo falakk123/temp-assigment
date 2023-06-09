@@ -1,4 +1,4 @@
-// 1. Consider you have following code snippet:
+// 1.nsider you have following code snippet: Co
 //  (Copy it in your HTML file)
 // <div>
 // <h1> DOM </h1>
@@ -25,44 +25,20 @@
 // iv. Fill input value whose element id first-name using javascript.
 // v. Repeat part iv for id ”last-name” and “email”.
 
-//. Get element of id “main-content” and assign them in a variable.
-
-
 // var  mainContent = document.getElementById("main-content");
-// console.log(mainContent)
+//  console.log(mainContent)
 
-//ii. Display all child elements of “main-content” element.
+//  var mainContent = document.getElementById("main-content");
+//   console.log(mainContent.children);
 
-// var childElements = mainContent.childNodes;
-// console.log(childElements.mainContent);
-
-
-//iii. Get all elements of class “render” and show their innerHTML in browser.
-
-
-// var renderElements = document.getElementsByClassName("render");
-// for (let i = 0; i < renderElements.length; i++) {
+//  var renderElements = document.getElementsByClassName("render");
+//  for (let i = 0; i < renderElements.length; i++) {
 //   console.log(renderElements[i].innerHTML);
-// }
+//  }
 
-
-//iv. Fill input value whose element id first-name using javascript.
-
-
-// var firstNameInput = document.getElementById("first-name");
-// firstNameInput.value = "John";
-
-
-//v. Repeat part iv for id ”last-name” and “email”.
-
-
-// var lastNameInput = document.getElementById("last-name");
-// lastNameInput.value = "Doe";
-
-// var emailInput = document.getElementById("email");
-// emailInput.value = "johndoe@example.com";
-
-
+//  var firstNameInput = document.getElementById("first-name").value;
+//  var lastNameInput = document.getElementById("last-name").value;
+//  var emailInput = document.getElementById("email").value;
 
 
 //i. The node type of the element with id "form-content" is an HTMLDivElement.
@@ -72,35 +48,38 @@
 //iii. You can update the child node of the element with id "lastName" using the following code:
 
 
+var formContent = document.getElementById('form-content');
+console.log(formContent.nodeType);
 
-const lastName = document.querySelector('#lastName');
-lastName.childNodes[0].nodeValue = 'New Last Name';
+var lastName = document.getElementById('lastName');
+console.log(lastName.nodeType);
+console.log(lastName.childNodes[0].nodeType);
 
-
-//iv. To get the first and last child of the element with id "main-content", you can use the following code:
-
-
-const mainContent = document.querySelector('#main-content');
-const firstChild = mainContent.firstElementChild;
-const lastChild = mainContent.lastElementChild;
+lastName.innerHTML = 'New Last Name';
 
 
-//v. To get the next and previous siblings of the element with id "lastName", you can use the following code:
 
 
-const lastName = document.querySelector('#lastName');
-const previousSibling = lastName.previousElementSibling;
-const nextSibling = lastName.nextElementSibling;
 
 
-//vi. To get the parent node and node type of the element with id "email", you can use the following code:
 
 
-const email = document.querySelector('#email');
-const parent = email.parentNode;
-const nodeType = parent.nodeType;
 
-//The parent node is an HTMLDivElement and the node type is 1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -15,6 +15,7 @@
 //     }
 //   }
 
+
 // 2. Create a paragraph and two buttons “zoom in ”(+) and “zoom out”(-).
 // Events | JAVASCRIPT
 // Page 2 of 2

@@ -22,12 +22,12 @@
 //where, S = ( a + b + c ) / 2
 //Calculate area of triangle using 2 functions
 
-// function triangleS(a, b, c) {
+// function triangle(a, b, c) {
 //     return (a + b + c) 
 //   }
   
 //   function triangleArea(a, b, c) {
-//     var s = triangleS(a, b, c);
+//     var s = triangle(a, b, c);
 //     var area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
 //     return area;
 //   }
@@ -71,7 +71,7 @@
 
 // function percentageFunction(marks) {
 //   var total = marks[0] + marks[1] + marks[2];
-//   var per = (total / (marks.length * 100)) * 100;
+//   var per = (total / (marks.length) *100)/100 ;
 //   return per;
 // }
 // mainFunction();
@@ -99,20 +99,6 @@
 
 //6. Write a function to delete all vowels from a sentence. Assume 
 //that the sentence is not more than 25 characters long.
-
-// function deleteVowels(sentence) {
-//     var result = new sentence();
-//   for (var i = 0; i < sentence.length(); i++) {
-//       var c = sentence.charAt(i);
-//       if ("AEIOUaeiou".indexOf(c) == -1) {
-//           result.append(c);
-//       }
-//   }
-//   return result.toSentence();
-// }
-// var sentence = "This is a sentence with vowels.";
-// var result = deleteVowels(sentence);
-// document.write(result); // Output: Ths s  sntnc wth vwls.
 
 
 // function deleteVowels(sentence) {
@@ -160,15 +146,14 @@
 //   }
 //   return count;
 // }
-// const text = "Pleases read this application and give me gratuity";
-// const count = countVowelPairs(text);
+// var text = "Pleases read this application and give me gratuity";
+// var count = countVowelPairs(text);
 // console.log(count); 
 
 
 //8. The distance between two cities (in km.) is input through the 
 //keyboard. Write four functions to convert and print this 
 //distance in meters, feet, inches and centimeters.
-
 
 
 // function kmToMeters(km) {
@@ -205,17 +190,17 @@
 //worked above 40 hours. Assume that employees do not work 
 //for fractional part of an hour.
 
+  
+// function overtimePay(hoursWorked) {
+//   var regularHours = 40;
+//   var overtimeRate = 12.00;
+//   var overtimeHours = Math.max(hoursWorked - regularHours, 0);
+//   var overtimePay = overtimeHours * overtimeRate;
 
-
-
-
-
-
-
-
-
-
-
+//   document.write("Overtime Pay: Rs. " + overtimePay.toFixed(2));
+// }
+// var hoursWorked = 50;
+// overtimePay(hoursWorked);
 
 
 //10. A cashier has currency notes of denominations 10, 50 and 
@@ -224,61 +209,15 @@
 //of each denomination the cashier will have to give to the 
 //withdrawer.
 
-
-
-// function CurrencyNotesCalculator {
-  // public static void main(String[] args) {
-  //     Scanner scanner = new Scanner(System.in);
+//  var amount = +prompt("Enter the amount to be withdrawn in hundreds:");
+// function CurrencyNotes(amount) {
+//          var note100 = amount/ 100;
+//          var note50 = amount / 50;
+//          var note10 = amount / 10;
       
-// function CurrencyNotesCalculator () {
-//     var scanner = prompt("Enter the amount to be withdrawn in hundreds: ");
-//       var amountInHundreds = scanner.nextInt();
-
-      
-//       var numHundreds = amountInHundreds;
-//       var numFifties = 0;
-//       var numTens = 0;
-      
-//       while (numHundreds > 0) {
-//           if (numHundreds >= 5) {
-//               numFifties = numFifties + 1;
-//               numHundreds = numHundreds - 5;
-//           } else if (numHundreds >= 2) {
-//               numTens = numTens + 1;
-//               numHundreds = numHundreds - 2;
-//           } else {
-//               numTens = numTens + 1;
-//               numHundreds = numHundreds - 1;
-//           }
-//       }
-      
-//       document.write("Number of 100 Rs. notes: %d%n", amountInHundreds);
-//       document.write("Number of 50 Rs. notes: %d%n", numFifties * 5);
-//       document.write("Number of 10 Rs. notes: %d%n", numTens * 10);
-      
-//       scanner.close();
-//   }
-
-
-
-
-//}
-// }
-// Enter the amount to be withdrawn in hundreds: 23
-// Number of 100 Rs. notes: 23
-// Number of 50 Rs. notes: 0
-// Number of 10 Rs. notes: 10
-
-//   Number of 100 Rs. notes: 23
-//   Number of 50 Rs. notes: 0
-//   Number of 10 Rs. notes: 10
-
-
-
-
-
-
-
-
-
-
+//      document.write("<br>Note of 100: "+note100);
+//      document.write("<br>Note of 50: "+note50);
+//      document.write("<br>Note of 10: "+note10);
+//      }
+// CurrencyNotes(amount)
+    
